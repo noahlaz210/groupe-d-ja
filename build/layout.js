@@ -27,16 +27,32 @@ function headerNav(site, activeHref) {
     return `<div class="site-nav__col">\n<h4>${esc(g.label)}</h4>\n${links}\n</div>`;
   }).join('\n');
 
+  const primary = [
+    ['/', 'Accueil'],
+    ['/spectacles/', 'Spectacles'],
+    ['/presentation/', 'La compagnie'],
+    ['/sur-mesure/', 'Sur mesure'],
+    ['/agenda/', 'Agenda'],
+    ['/actus/', 'Actus'],
+  ];
+  const topnavLinks = primary.map(([href, label]) => `<a href="${href}"${href === activeHref ? ' aria-current="page"' : ''}>${esc(label)}</a>`).join('\n');
+
   return `<header class="site-header">
   <div class="site-header__bar">
     <a class="brand" href="/">
       ${img('2018/10/GroupeDejaLogoNoir_100px.png', 'Groupe Déjà', { eager: true })}
       <span class="brand__text">Groupe Déjà<span class="brand__tag">Théâtre &amp; interventions</span></span>
     </a>
-    <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="site-nav">
-      <span class="bars"><span></span><span></span><span></span></span>
-      Menu
-    </button>
+    <nav class="topnav" aria-label="Navigation principale">
+      ${topnavLinks}
+    </nav>
+    <div class="site-header__actions">
+      <a class="btn btn--ember btn--sm" href="/contact/">Contact</a>
+      <button class="menu-toggle" data-menu-toggle aria-expanded="false" aria-controls="site-nav">
+        <span class="bars"><span></span><span></span><span></span></span>
+        Menu
+      </button>
+    </div>
   </div>
 </header>
 <nav class="site-nav" id="site-nav">
