@@ -1,0 +1,96 @@
+{
+  "status_note": "Petite pause ! Pour le moment pas de nouveau stage chez Groupe Déjà. On vous tiendra informés !",
+  "intro": [
+    "Les stages théâtre en 2020 chez Groupe Déjà.",
+    "Offrez-vous un stage de jeu théâtral proposé par Groupe Déjà au Mans.",
+    "Chaque année : 3 stages / 3 périodes / 3 intervenants.",
+    "Ouverts à tous, amateurs (ceux qui aiment) et curieux, débutants et confirmés.",
+    "80 euros le stage de 2 jours / 12 heures — 190 euros le stage de 5 jours / 30 heures (10h à 13h et 14h à 17h).",
+    "Renseignements et inscriptions : 06 72 90 12 37, ecrire@groupedeja.com",
+    "Avec le soutien du Théâtre de L'Ecluse (Cie Pièces et Main d'oeuvre) et de l'Espace culturel Eve / Le Mans."
+  ],
+  "years": [
+    {
+      "year": "2020",
+      "note": "Les précédents stages ont eu lieu en 2018 : toutes les sessions 2020 ont été annulées pour cause de Covid-19.",
+      "sessions": [
+        { "dates": "21 et 22 mars 2020", "title": "Théâtre du sous jeu", "cancelled": true,
+          "text": "Sous jouer est une façon d'apparaître nonchalant sur scène, d'avoir le moins d'énergie possible pour incarner des rois, des reines, des amants trompés... Et pour atteindre ce cap, il faudra bien sûr passer par le surjeu voir l'ultra surjeu. Nous écrirons donc des scènes ensemble et explorerons ces différents modes de jeu sur le plateau.",
+          "speaker": "Arnaud Aymard (Comédien, auteur, clown, performeur - Spectralex, Cie d'Edouard Baer ...)", "place": "Salle EVE - Le Mans" },
+        { "dates": "25 et 26 avril 2020", "title": "Improviser et jouer au présent", "cancelled": true,
+          "text": "Être son propre auteur et jouer en partant de soi. Improviser avec le réel. Laisser aller et lâcher prise. Seul, en duo ou à plusieurs, sur l'espace scènique comme terrain de jeu, être libre de jouer vrai mais aussi faux... Bref, s'amuser à jouer au présent pour mieux le distordre et se laisser aller à ce qui vient, aussi idiot, cruel ou animal que ce soit.",
+          "speaker": "Sébastian Lazennec (Metteur en scène, auteur, comédien - Groupe Déjà, Grand maximum…)", "place": "Théâtre de l'Ecluse - Le Mans" },
+        { "dates": "27 au 31 octobre 2020", "title": "Le corps des émotions (Clown organique)", "cancelled": true,
+          "text": "Le clown récepteur, ultrasensoriel, goûteur et gourmand joue de tous ses sens. Jouisseur, il est donc jouissif. Le clown organique est épidermique, relié à tout son être. A l'écoute de son corps qui exprime des émotions intrinsèques. Un corps traversé, vibrant, dans l'instinct, dans l'instant. Les objectifs du stage seront de se relier à soi même. Reconquérir le goût de l'exploration (source de jeu). Développer la notion de plaisir et de jeu avec un corps générateur de vie. Vivre ici et maintenant sans censure. S'ancrer.",
+          "speaker": "Alain Bourderon (Clown, comédien, metteur en scène - La Chouing ...)", "place": "En attente - Le Mans ou alentours" }
+      ]
+    },
+    {
+      "year": "2018",
+      "sessions": [
+        { "dates": "17 et 18 mars 2018", "title": "Construire un personnage",
+          "text": "Explorons le processus de création du personnage : Terre d'aventures et de jeux ! Le personnage : Formidable véhicule. D'où sort-il ? De la cuisse comme Dyonisos, ou de la tête comme Athéna ? Quels en sont les ferments, les principes actifs, la secrète alchimie ? Comment on se laisse traverser, chevaucher, par cette étonnante monture ? Comment créer les conditions qui vont lui permettre de s'épanouir ?",
+          "speaker": "Diane Bonnot (Comédienne, auteur, performeuse - Spectralex, Cie d'Edouard Baer, ElianeS ...)", "place": "Théâtre La Fonderie - Le Mans" },
+        { "dates": "7 et 8 avril 2018", "title": "Improviser et jouer au présent",
+          "text": "Être son propre auteur et jouer en partant de soi, ici et maintenant. Improviser avec le réel. Laisser aller et lâcher prise. Seul, en duo ou à plusieurs, sur l'espace scènique comme terrain de jeu, être libre de jouer vrai mais aussi faux... Bref, s'amuser à jouer au présent pour mieux le distordre et se laisser aller à ce qui vient, aussi idiot, cruel ou animal que ce soit.",
+          "speaker": "Sébastian Lazennec (Metteur en scène, comédien - Groupe Déjà, Grand maximum…)", "place": "Théâtre de l'Ecluse - Le Mans" },
+        { "dates": "14 et 15 avril 2018", "title": "Le clown et le «bide»",
+          "text": "Découvrons, améliorons, approfondissons, de nouvelles possibilités dans le jeu du clown mais également dans le travail du comédien en jouant avec le \"bide\" clownesque. Ce moment fatidique où l'on n'arrive pas à faire rire. Comment faire pour que cela devienne, non pas une défaite mais au contraire, une victoire. Savoir rebondir, comprendre sa mécanique, procéder à son anatomie afin qu'au final \"faire un bide\" devienne un plaisir !",
+          "speaker": "Alex Pavlata (Clown, Comédien, metteur en scène - Cie N°8, Francky O'Right, Le Rire Médecin...)", "place": "Studio Marie Lenfant - Le Mans" }
+      ]
+    },
+    {
+      "year": "2017",
+      "sessions": [
+        { "dates": "4 et 5 février 2017", "title": "Clown clown clown",
+          "text": "Deux jours pour découvrir le clown, pour rire et se faire rire… Deux jours c'est peu ! Mais c'est déjà beaucoup ! Pour commencer nous aborderons les grands principes de base du jeu clownesque : jeu, rythme, tempo, écriture, contre temps … Il s'agira d'élaborer son vocabulaire propre et petit à petit trouver des outils qui nous aiderons à créer notre monde, notre galaxie et surement un jour notre univers !",
+          "speaker": "Patrick De Valette (Clown - Les Chiche Capon ...)", "place": "Maison de quartier Pierre Guedou - Le Mans" },
+        { "dates": "25 et 26 février 2017", "title": "Improviser et jouer au présent",
+          "text": "Être son propre auteur et jouer en partant de soi, ici et maintenant. Improviser avec le réel. Laisser aller et lâcher prise. Seul, en duo ou à plusieurs, sur l'espace scènique comme terrain de jeu, être libre de jouer vrai mais aussi faux... Bref, s'amuser à jouer au présent pour mieux le distordre et se laisser aller à ce qui vient, aussi idiot, cruel ou animal que ce soit.",
+          "speaker": "Sébastian Lazennec (Metteur en scène, comédien - Groupe Déjà, Grand maximum…)", "place": "Espace culturel Eve - Le Mans" },
+        { "dates": "25 et 26 mars 2017", "title": "Théâtre avec manipulations d'objets",
+          "text": "Initiation à la manipulation d'objets. Au travers d'improvisations, utilisons l'objet comme prolongement de soi. Le rendre vivant, pour jouer et raconter, amusons nous !",
+          "speaker": "Amédée Renoux (Comédien, metteur en scène, auteur - Cie Thé à la Rue.)", "place": "Salle Claircigny - Le Mans" }
+      ]
+    },
+    {
+      "year": "2016",
+      "sessions": [
+        { "dates": "26 et 28 mars 2016", "title": "Le clown vivant",
+          "text": "Travail sur les outils tels que le rythme et l'improvisation comme manière d'écrire en direct, les gammes d'état et surtout la connerie comme élément constituant et fondamental de la nature humaine. N'oublions pas l'instinct de survie qui est primordial s'il s'avère que notre connerie n'est pas universelle.",
+          "speaker": "Fred Blin (Clown, comédien - Les Chiche Capon ...)", "place": "Salle Le Royal - Le Mans" },
+        { "dates": "23 et 24 avril 2016", "title": "Théâtre de rue - Jouer avec et dans l'espace public",
+          "text": "Initiation à l'improvisation et à la construction de situations et d'images décalées, en groupe, dans un contexte extérieur urbain. Après un travail sur l'écoute, nous utiliserons une technique de choeur (physique) afin de faire émerger des postures et des images inédites et humoristiques. Le temps d'un week end, prenez place au sein de ce groupe d'interventions théâtrales éphémère.",
+          "speaker": "Sébastian Lazennec (Metteur en scène, comédien - Utopium théâtre, Groupe Déjà, Grand maximum…)", "place": "Salle Georges Brassens - Le Mans" },
+        { "dates": "14 et 15 mai 2016", "title": "Jouer la comédie face à la caméra",
+          "text": "Approche de l'interprétation d'un rôle, apprivoiser la caméra, jouer pour elle et avec elle. On ne joue pas devant la caméra comme on joue au théâtre. Prenez le temps d'essayer, en passant tour à tour devant et derrière l'objectif. S'amuser, et apprendre comment se fait un tournage…",
+          "speaker": "Nicolas Boutruche (Réalisateur, photographe, comédien à Utopium théâtre...)", "place": "Salle Le Royal - Le Mans" }
+      ]
+    },
+    {
+      "year": "2015",
+      "sessions": [
+        { "dates": "21 et 22 février 2015", "title": "La vérité est ailleurs, autant en inventer une autre... ou comment capturer son public avec des moyens dérisoires",
+          "text": "Stage d'initiation à l'art de raconter des histoires, absurdes ou non / Écriture à la table ou en impro / Narration onirique et confession intime / Prise de parole en public / Travail sur la sincérité / Prise en compte des éléments perturbateurs comme points d'appui. (Exemple : Je suis Napoléon, en réalité je ne suis pas mort, enfin si, mais je vais vous expliquer…)",
+          "speaker": "Arnaud Aymard (Paco, l'Oiseau bleu, Spectralex...)", "place": "Espace culturel EVE - Le Mans" },
+        { "dates": "28 et 29 mars 2015", "title": "C'est vrai ou c'est faux ? Initiation au théâtre invisible",
+          "text": "Construction de personnage, improvisation, écoute, prise en compte de l'espace, observation et réflexion… L'aboutissement du stage est d'aborder le jeu réaliste afin de brouiller les pistes entre le vrai et le faux. Jouer à faire croire qu'il s'agit de la réalité... Aussi aberrante ou absurde soit-elle...",
+          "speaker": "Sébastian Lazennec (Utopium théâtre, Groupe Déjà, Grand maximum...)", "place": null }
+      ]
+    },
+    {
+      "year": "2014",
+      "sessions": [
+        { "dates": "21 et 22 février 2015", "title": "La vérité est ailleurs, autant en inventer une autre... ou comment capturer son public avec des moyens dérisoires",
+          "text": "Stage d'initiation à l'art de raconter des histoires, absurdes ou non / Écriture à la table ou en impro / Narration onirique et confession intime / Prise de parole en public / Travail sur la sincérité / Prise en compte des éléments perturbateurs comme points d'appui. (Exemple : Je suis Napoléon, en réalité je ne suis pas mort, enfin si, mais je vais vous expliquer…)",
+          "speaker": "Arnaud Aymard (Paco, l'Oiseau bleu, Spectralex, Le Cabaret Philosophique, Cie d'Edouard Baer...)", "place": "Théâtre de l'Ecluse - Le Mans" },
+        { "dates": "15 et 16 mars 2014", "title": "Intervenir en groupe dans l'espace public sans utiliser la parole",
+          "text": "Stage d'initiation à l'art du choeur-action dans l'espace public / Influence du groupe sur l'individu et de l'individu sur le groupe. À chacun de trouver sa place, de la prendre ou de la laisser. À chacun d'être à l'écoute de son/ses partenaires pour provoquer l'émergence de formes théâtrales inouïes et inédites, décalées et humoristiques.",
+          "speaker": "Sébastian Lazennec (Groupe Déjà, Utopium théâtre, Thé à la rue, Grand maximum...)", "place": "Maison de quartier Pierre Perret - Le Mans" },
+        { "dates": "12 et 13 avril 2014", "title": "Ecrire et jouer une visite guidée détournée",
+          "text": "Stage d'initiation à l'art du détournement et de la parole. La visite guidée est en soi un genre incontournable, radical et frontal du théâtre de rue. Après avoir observé les détails d'un lieu, il sera question d'inventer l'histoire de ce lieu et de la raconter sous forme de visite guidée.",
+          "speaker": "Stanislas Hilairet (Les contrevisites guidées de Jérôme Poulain/Cie Joseph K, La taverne Münchausen/Cie Femmes à barbes...)", "place": "Studio Marie Lenfant - Le Mans" }
+      ]
+    }
+  ]
+}

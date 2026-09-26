@@ -1,0 +1,141 @@
+{
+  "title": "Groupe Déjà",
+  "tagline": "Théâtre & interventions",
+  "domain": "groupedeja.com",
+  "nav": {
+    "groups": [
+      {
+        "label": "La compagnie",
+        "links": [
+          { "label": "Présentation", "href": "/presentation/" },
+          { "label": "Sébastian Lazennec", "href": "/sebastian-lazennec/" },
+          { "label": "Équipe", "href": "/equipe/" },
+          { "label": "Collectif Grand maximum", "href": "/collectif-grand-maximum/" },
+          { "label": "Mises en scène", "href": "/mise-en-scene/" }
+        ]
+      },
+      {
+        "label": "Spectacles",
+        "links": [
+          { "label": "Tous les spectacles", "href": "/spectacles/" },
+          { "label": "Ce qui nous noue", "href": "/spectacles/ce-qui-nous-noue/" },
+          { "label": "Cowboy ou indien ?", "href": "/spectacles/cowboy-ou-indien/" },
+          { "label": "Inhumaines", "href": "/spectacles/inhumaines-de-philippe-claudel/" },
+          { "label": "Les Raccrocheurs", "href": "/spectacles/les-raccrocheurs/" },
+          { "label": "Mon grand oncle", "href": "/spectacles/mon-grand-oncle/" },
+          { "label": "Tous les jours", "href": "/spectacles/tous-les-jours/" },
+          { "label": "AMI(S)", "href": "/spectacles/amis/" }
+        ]
+      },
+      {
+        "label": "Sur mesure",
+        "links": [
+          { "label": "Créations sur mesure", "href": "/sur-mesure/" },
+          { "label": "Déambulations", "href": "/sur-mesure/deambulations/" },
+          { "label": "Personnages", "href": "/sur-mesure/personnages/" },
+          { "label": "Vidéos", "href": "/sur-mesure/videos/" },
+          { "label": "Visites théâtralisées", "href": "/sur-mesure/visites-theatralisees/" }
+        ]
+      },
+      {
+        "label": "Transmission",
+        "links": [
+          { "label": "Actions culturelles", "href": "/actions-culturelles/" },
+          { "label": "Stages", "href": "/stages/" }
+        ]
+      },
+      {
+        "label": "Actualités",
+        "links": [
+          { "label": "Actus", "href": "/actus/" },
+          { "label": "Agenda & tournées", "href": "/agenda/" },
+          { "label": "Presse", "href": "/presse/" }
+        ]
+      }
+    ],
+    "primary": [
+      { "label": "Accueil", "href": "/" },
+      { "label": "La compagnie", "href": "/presentation/" },
+      { "label": "Spectacles", "href": "/spectacles/" },
+      { "label": "Sur mesure", "href": "/sur-mesure/" },
+      { "label": "Actions culturelles", "href": "/actions-culturelles/" },
+      { "label": "Stages", "href": "/stages/" },
+      { "label": "Actus", "href": "/actus/" },
+      { "label": "Agenda", "href": "/agenda/" },
+      { "label": "Presse", "href": "/presse/" },
+      { "label": "Contact", "href": "/contact/" }
+    ]
+  },
+  "footer": {
+    "cta": "Contactez-nous !",
+    "quickLinks": [
+      { "label": "Présentation", "href": "/presentation/" },
+      { "label": "Équipe", "href": "/equipe/" },
+      { "label": "Presse", "href": "/presse/" },
+      { "label": "Stages", "href": "/stages/" },
+      { "label": "Mentions légales", "href": "/mentions-legales/" }
+    ],
+    "creditLine": "Crédit Groupe Déjà / Suivez-nous"
+  },
+  "socials": [
+    { "label": "Facebook", "href": "https://www.facebook.com/Groupe-Déjà-317173591852/" },
+    { "label": "Youtube", "href": "https://www.youtube.com/user/utopiumproductions" },
+    { "label": "Instagram", "href": "https://www.instagram.com/groupe.deja/" }
+  ],
+  "contact": {
+    "orgName": "Groupe Déjà",
+    "addressLines": ["35 rue de Degré - Hall A - Appt 303", "72000 le Mans - Sarthe - France"],
+    "phoneMobile": "00 33 (0)6 72 90 12 37",
+    "phoneOffice": "00 33 (0)9 54 22 67 40",
+    "email": "ecrire@groupedeja.com",
+    "team": [
+      { "name": "Emilie Métris", "role": "Chargée de production et de tournée" },
+      { "name": "Sébastian Lazennec", "role": "Responsable artistique des projets" }
+    ],
+    "form": {
+      "nameLabel": "Prénom, nom et departement",
+      "nameError": "Veuillez entrer votre nom.",
+      "emailLabel": "Courriel",
+      "emailError": "Veuillez entrer une adresse email valide.",
+      "consentLabel": "Abonnement Newsletters Groupe Déjà",
+      "successMessage": "Merci de vous être inscrit ! Vous recevrez la prochaine Newsletter de Groupe Déjà",
+      "errorMessage": "Une erreur s'est produite. Vérifiez vos données et essayez à nouveau."
+    }
+  },
+  "legal": {
+    "orgLine": "Association Groupe Déjà",
+    "address": "Siège social : 35 rue de Degré 72000 Le Mans / France",
+    "phone": "06 72 90 12 37",
+    "email": "ecrire@groupedeja.com",
+    "siret": "SIRET : 399 392 570 000 61",
+    "ape": "Code APE : 9001Z",
+    "tva": "TVA intracom : FR 63399392570",
+    "licences": "Licences : L-R-2021-011025 et L-R-2021-011025",
+    "hosting": "Site hébergé sur wordpress",
+    "webdesignLabel": "webdesign",
+    "webdesignUrl": "https://www.nicolasfosset.fr",
+    "publisher": "Directeur de la publication en collaboration avec l'équipe artistique et administrative / président de l'association : Emmanuel Grignon",
+    "photoCreditsTitle": "Crédit photos Groupe Déjà",
+    "photoCredits": [
+      "Pascal Boudet (La plupart des photos du site de Groupe Déjà)",
+      "Damien Ledebt (Photos de \"AMI(S)\" et \"Les Raccrocheurs\")",
+      "Philippe Noirault (Photos de \"AMI(S)\")",
+      "Nicolas Boutruche (Photos de \"Mon grand oncle\" et de Grand maximum)",
+      "Clément Szczuczynski (Photos de la Nuit Européenne des Chercheurs)",
+      "Hervé Petitbon (Photo de Sébastian Lazennec)"
+    ],
+    "privacyTitle": "Politique de confidentialité",
+    "privacyText": "Les données personnelles récoltées dans notre formulaire de contact (Nom, prénom, département, ville, email) avec votre accord, vous permettront de recevoir notre newsletter (tous les 2 à 3 mois). Elles seront uniquement destinées à cet usage, sont stockées sur notre plateforme d'emailing (Mailchimp) et sécurisées. Pour les modifier, les supprimer ou en demander la copie, écrivez-nous à communication@groupedeja.com"
+  },
+  "partners": {
+    "intro": "Groupe Déjà est conventionné avec l'État - Direction Régionale des Affaires Culturelles (DRAC) des Pays de la Loire.",
+    "items": [
+      "Conventionné avec l'État - Direction Régionale des Affaires Culturelles (DRAC) des Pays de la Loire",
+      "Conventionné avec le Département de la Sarthe et la Ville du Mans",
+      "Soutenu par l'État - DRAC des Pays de la Loire pour ses actions territoriales",
+      "Adhérent au SCC (Syndicat des compagnies de cirque et de création)",
+      "Adhérent au Pôle spectacle vivant des Pays de la Loire",
+      "Adhérent à l'association de préfiguration CIES72"
+    ]
+  }
+}
