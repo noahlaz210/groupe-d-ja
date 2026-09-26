@@ -66,7 +66,7 @@ function renderHome() {
     <div class="hero__body">
       <p class="eyebrow" style="color:var(--paper-3)">${esc(home.hero_kicker)}</p>
       <h1 class="h-display">${esc(home.hero_title)}</h1>
-      <p class="lede" style="color:rgba(245,239,226,.86);max-width:52ch;margin-top:18px">${esc(home.hero_intro)}</p>
+      <p class="lede" style="color:rgba(255,255,255,.88);max-width:52ch;margin-top:18px">${esc(home.hero_intro)}</p>
       <p class="hero__credit">${esc(home.hero_credit)}</p>
     </div>
   </section>
@@ -118,7 +118,7 @@ function renderHome() {
     <div class="wrap center">
       <p class="eyebrow" style="color:var(--ember)">Créations sur mesure</p>
       <h2 class="h-1 mt-1">Un projet, un événement à mettre en scène ?</h2>
-      <p class="lede mt-2" style="color:rgba(245,239,226,.8)">Groupe Déjà écrit et met en scène des interventions théâtrales sur mesure, en entreprise comme dans l'espace public.</p>
+      <p class="lede mt-2" style="color:rgba(255,255,255,.82)">Groupe Déjà écrit et met en scène des interventions théâtrales sur mesure, en entreprise comme dans l'espace public.</p>
       <p class="mt-3"><a class="btn btn--ember" href="/sur-mesure/">Découvrir le sur mesure</a> <a class="btn" style="border-color:var(--paper);color:var(--paper)" href="/contact/">Nous contacter</a></p>
     </div>
   </section>
@@ -170,7 +170,7 @@ function renderSebastian() {
 
 /* ---------------- EQUIPE ---------------- */
 function renderEquipe() {
-  const roster = team.roster.map(m => `<div class="listing-row" style="grid-template-columns:1fr"><h3>${esc(m.name)}</h3><p class="muted mt-1" style="grid-column:1">${esc(m.role)}</p></div>`).join('\n');
+  const roster = team.roster.map(m => `<div class="roster-item"><h3>${esc(m.name)}</h3><p class="muted">${esc(m.role)}</p></div>`).join('\n');
   const spotlight = team.spotlight.map(p => `
     <div class="team-card">
       <div class="team-card__photo">${img(p.photo, p.name)}</div>
@@ -192,7 +192,7 @@ function renderEquipe() {
   </section>
   <section class="wrap">
     <p class="eyebrow">Toute l'équipe</p>
-    <div class="rule-list mt-2">${roster}</div>
+    <div class="roster-grid mt-2">${roster}</div>
     <p class="muted mt-2">${esc(team.roster_note)}</p>
   </section>
   `;
@@ -283,7 +283,7 @@ function renderSpectacleDetail(s) {
     <div class="hero__body">
       <p class="eyebrow hero__kicker">Spectacle</p>
       <h1 class="h-display">${esc(s.title)}</h1>
-      ${s.tagline ? `<p class="lede mt-2" style="color:rgba(245,239,226,.86);max-width:56ch">${esc(s.tagline)}</p>` : ''}
+      ${s.tagline ? `<p class="lede mt-2" style="color:rgba(255,255,255,.88);max-width:56ch">${esc(s.tagline)}</p>` : ''}
       ${s.audience_note ? `<p class="hero__credit">${esc(s.audience_note)}</p>` : ''}
     </div>
   </section>

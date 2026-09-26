@@ -64,6 +64,11 @@ input, textarea{ font: inherit; }
 
 /* ---------- typographie ---------- */
 h1,h2,h3,h4{ font-family: var(--font-display); color: var(--ink-head); }
+/* Sur fond sombre (hero, bloc CTA), les titres doivent rester blancs :
+   la règle globale ci-dessus a une spécificité égale et gagnerait sinon,
+   rendant le texte quasi invisible sur les photos de plateau. */
+.hero h1, .hero h2, .hero h3, .hero h4,
+.callout--ink h1, .callout--ink h2, .callout--ink h3, .callout--ink h4{ color: var(--paper); }
 .eyebrow{
   display: inline-flex; align-items: center; gap: .5em;
   font-family: var(--font-body); font-weight: 600; font-size: .76rem;
@@ -188,11 +193,12 @@ h1,h2,h3,h4{ font-family: var(--font-display); color: var(--ink-head); }
 .hero__media img{ width:100%; height:100%; object-fit: cover; opacity: .86; }
 .hero__media::after{
   content:""; position:absolute; inset:0;
-  background: linear-gradient(180deg, rgba(13,23,23,.1) 0%, rgba(13,23,23,.5) 60%, rgba(13,23,23,.9) 100%);
+  background: linear-gradient(180deg, rgba(13,23,23,.15) 0%, rgba(13,23,23,.6) 55%, rgba(13,23,23,.94) 100%);
 }
 .hero__body{ position: relative; padding: 60px var(--gutter) 64px; max-width: var(--wrap); margin: 0 auto; width: 100%; }
+.hero__body h1{ text-shadow: 0 2px 24px rgba(0,0,0,.35); }
 .hero__kicker{ color: var(--ember); }
-.hero__credit{ margin-top: 18px; font-size: .8rem; color: rgba(255,255,255,.6); }
+.hero__credit{ margin-top: 18px; font-size: .8rem; color: rgba(255,255,255,.62); }
 
 .page-head{ padding: 64px var(--gutter) 40px; max-width: var(--wrap); margin: 0 auto; }
 .page-head--split{ display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: end; }
@@ -251,6 +257,12 @@ a.listing-row:hover h3{ color: var(--ember); }
 .team-card h3{ font-size: 1.15rem; font-weight: 500; }
 .team-card .role{ color: var(--ember); font-size: .8rem; font-weight: 600; margin-top: 2px; }
 .team-card p{ margin-top: 10px; font-size: .92rem; color: var(--ink-70); }
+
+/* annuaire équipe : grille compacte plutôt qu'une longue colonne */
+.roster-grid{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 28px; }
+.roster-item{ padding: 16px 0; border-bottom: 1px solid var(--mist); }
+.roster-item h3{ font-size: .98rem; font-weight: 500; color: var(--ink-head); }
+.roster-item p{ font-size: .84rem; margin-top: 2px; }
 
 /* galerie */
 .gallery{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
@@ -325,12 +337,14 @@ a.listing-row:hover h3{ color: var(--ember); }
   .listing-row .go{ display:none; }
   .gallery{ grid-template-columns: repeat(2, 1fr); }
   .credits{ grid-template-columns: 1fr; }
+  .roster-grid{ grid-template-columns: repeat(2, 1fr); }
   section{ padding: 52px 0; }
   .hero__body{ padding-bottom: 44px; }
 }
 @media (max-width: 560px){
   body{ font-size: 15.5px; }
   .footer-grid{ grid-template-columns: 1fr; }
+  .roster-grid{ grid-template-columns: 1fr; }
   .hero{ min-height: 74vh; }
   .brand__tag{ display: none; }
   .btn{ padding: .85em 1.5em; }
